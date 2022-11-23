@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kittens!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>Kittens app</h1></center>
+    <section id="randomCats">
+        <center><h2>Random Kittens</h2></center>
+
+        <span id="error"></span>
+
+        <article>
+            <center><img id="img1" alt "random"></center>
+            <center><button id="btn1">❤</button></center>
+        </article>
+        <br>
+        <article>
+            <center><img id="img2" alt "random"></center>
+            <center><button id="btn2">❤</button></center>
+        </article>
+        <br>
+        <article>
+            <center><img id="img3" alt "random"></center>
+            <center><button id="btn3">❤</button></center>
+        </article>
+        <br>
+        <center><br> <button id="reload" onclick="getAcat" >More Kittens!</button></center>
+        
+    </section>
+    <br>
+    <section id="uploadingCat">
+        <h2>Upload a photo of your kitten!</h2>
+    
+        <form id="uploadingForm">
+           <center> <input id="file" type="file" name="file" onchange="previewImage()"/> </center> 
+           <br>
+           <center><img id="preview"></center>
+          <center><button id="reload2" type="button" onclick="uploadphoto()">Upload your kitten</button></center> 
+        </form>
+       </section>
+    <br>
+    <center><h2>Favorite Kittens</h2></center>
+
+    <section id="favoriteCats">
+        
+
+        <article>
+            
+            
+        </article>
+        
+    </section>
+
+    <br>
+
+   
+    
+
+    
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

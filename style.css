@@ -1,0 +1,98 @@
+body{
+    background-color: aliceblue;
+    
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 3px lightgray solid;
+}
+
+#preview{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border: 3px lightgray solid;
+}
+
+h1{
+    color: lightgray;
+    -webkit-text-stroke: 0.5px lightslategray
+}
+h2{
+    color: lightgray;
+    -webkit-text-stroke: 0.5px lightslategray;
+    
+}
+#reload{
+    border-radius: 5px;
+    background-color: lightgray;
+    color: grey;    
+}
+
+#reload2{
+    border-radius: 5px;
+    background-color: lightgray;
+    color: grey;    
+}
+
+
+    
+#favoriteCats{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 450PX;
+
+}
+h2{
+    text-align: center;
+}
+
+#btn1{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 210px;
+    left: 818px;
+}
+
+#btn2{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 345px;
+    left: 818px;
+}
+
+#btn3{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    position: absolute;
+    top: 475px;
+    left: 818px;
+}
+
+button{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover{
+    font-size: 20px;
+}
+
+button:hover{
+    font-size: 14px;
+}
